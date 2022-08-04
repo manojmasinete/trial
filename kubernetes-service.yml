@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Service
 metadata: 
  name: service
- labels: 
-  app.kubernetes.io/name: proxy
 spec: 
  selector: 
   app: nginx 
