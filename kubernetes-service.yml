@@ -3,7 +3,7 @@ kind: Service
 metadata: 
  name: service
  labels: 
-  app: service
+  app.kubernetes.io/name: proxy
 spec: 
  selector: 
   app: nginx 
